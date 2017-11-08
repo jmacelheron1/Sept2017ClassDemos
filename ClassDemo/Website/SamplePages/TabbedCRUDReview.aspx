@@ -139,7 +139,7 @@
                                 DataKeyName="AlbumId">
 
                                 <AlternatingItemTemplate>
-                                    <tr style="background-color: #FFF8DC;">
+                                    <tr style="background-color: red;">
                                         <td>
                                             <asp:Button runat="server" CommandName="Delete" Text="Delete" ID="DeleteButton" />
                                             <asp:Button runat="server" CommandName="Edit" Text="Edit" ID="EditButton" />
